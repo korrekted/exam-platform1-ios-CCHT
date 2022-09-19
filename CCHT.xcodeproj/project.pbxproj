@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A77BCA72898EB0FE204231CE /* Pods_CCHT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA3BA5DA552DE6BC8DBED37 /* Pods_CCHT.framework */; };
+		DE4FA15628D8320300085483 /* Onboarding.Chart.json in Resources */ = {isa = PBXBuildFile; fileRef = DE4FA15528D8320300085483 /* Onboarding.Chart.json */; };
 		DE8EA7142873721D00516774 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE8EA7132873721D00516774 /* Assets.xcassets */; };
 		DE8EA7262873723700516774 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8EA7252873723700516774 /* WidgetKit.framework */; };
 		DE8EA7282873723700516774 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8EA7272873723700516774 /* SwiftUI.framework */; };
@@ -362,7 +363,6 @@
 		DE8EAA732873731600516774 /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8EA7CD287372F600516774 /* Stats.swift */; };
 		DE8EAA742873731A00516774 /* StatsShareManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8EA7E0287372F600516774 /* StatsShareManager.swift */; };
 		DE8EAA762873734600516774 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE8EAA752873734600516774 /* GoogleService-Info.plist */; };
-		DE8EAA7B287374B300516774 /* Onboarding.Chart.json in Resources */ = {isa = PBXBuildFile; fileRef = DE8EAA7A287374B300516774 /* Onboarding.Chart.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -394,6 +394,7 @@
 		8AA3BA5DA552DE6BC8DBED37 /* Pods_CCHT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCHT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B897AC1A2873F73000409B7B /* StatsWidgetsExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StatsWidgetsExtension.entitlements; sourceTree = "<group>"; };
 		B897AC1B2873F75800409B7B /* CCHT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CCHT.entitlements; sourceTree = "<group>"; };
+		DE4FA15528D8320300085483 /* Onboarding.Chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding.Chart.json; sourceTree = "<group>"; };
 		DE8EA7072873721A00516774 /* CCHT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCHT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE8EA7132873721D00516774 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE8EA7182873721D00516774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -747,7 +748,6 @@
 		DE8EA929287372F600516774 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
 		DE8EAA752873734600516774 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DE8EAA772873736700516774 /* CCHT-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CCHT-Bridging-Header.h"; sourceTree = "<group>"; };
-		DE8EAA7A287374B300516774 /* Onboarding.Chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding.Chart.json; sourceTree = "<group>"; };
 		E88E54884CCC89B8119833CB /* Pods-CCHT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCHT.release.xcconfig"; path = "Target Support Files/Pods-CCHT/Pods-CCHT.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -2273,7 +2273,7 @@
 		DE8EA910287372F600516774 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				DE8EAA7A287374B300516774 /* Onboarding.Chart.json */,
+				DE4FA15528D8320300085483 /* Onboarding.Chart.json */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -2380,7 +2380,7 @@
 				DE8EA759287372E700516774 /* SF-Pro-Rounded-Semibold.otf in Resources */,
 				DE8EA75B287372E700516774 /* SF-Pro-Rounded-Black.otf in Resources */,
 				DE8EA761287372F000516774 /* LaunchScreen.storyboard in Resources */,
-				DE8EAA7B287374B300516774 /* Onboarding.Chart.json in Resources */,
+				DE4FA15628D8320300085483 /* Onboarding.Chart.json in Resources */,
 				DE8EA75A287372E700516774 /* SF-Pro-Rounded-Regular.otf in Resources */,
 				DE8EA75C287372E700516774 /* SF-Pro-Rounded-Bold.otf in Resources */,
 			);
@@ -2968,7 +2968,7 @@
 				CODE_SIGN_ENTITLEMENTS = CCHT/CCHT.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CCHT/Info.plist;
@@ -2982,7 +2982,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.ccht;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = CCHT;
@@ -3003,7 +3003,7 @@
 				CODE_SIGN_ENTITLEMENTS = CCHT/CCHT.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CCHT/Info.plist;
@@ -3017,7 +3017,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.ccht;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = CCHT;
@@ -3036,7 +3036,7 @@
 				CODE_SIGN_ENTITLEMENTS = StatsWidgetsExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StatsWidgets/Info.plist;
@@ -3048,7 +3048,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.ccht.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "CCHT Widget";
@@ -3067,7 +3067,7 @@
 				CODE_SIGN_ENTITLEMENTS = StatsWidgetsExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StatsWidgets/Info.plist;
@@ -3079,7 +3079,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.ccht.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "CCHT Widget";
